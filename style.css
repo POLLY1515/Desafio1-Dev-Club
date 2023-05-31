@@ -4,8 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  font-size: 16px;
+}
 header{
-    margin: 47px 0 0 42px;
+ 
+   margin: 3rem 0 0 2.6rem; 
+   max-width: 80%;
 }
 header a{
     margin-right: 32px;
@@ -62,3 +67,39 @@ section a{
     text-decoration: none;
     
     }
+
+  @media screen and (max-width:730px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    header a{
+        font-size: 14px;
+        display: block;
+        font-weight: 400px;
+        margin-left: 1rem;
+    }
+    button{
+        margin-left: 2rem;
+
+    }
+    .img1{
+       position: static;
+       max-width: 90%;
+
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 12px;
+        margin: 12px;
+        text-align: center;
+    }
+    section a{
+ 
+margin-left: 5rem;
+    }
+  }  
