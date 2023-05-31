@@ -85,7 +85,7 @@ section a{
 
     }
     .img1{
-       position: static;
+       margin-left: 12px;
        max-width: 90%;
 
     }
